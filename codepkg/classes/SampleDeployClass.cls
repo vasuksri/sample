@@ -4,7 +4,7 @@ public class SampleDeployClass {
     public static testmethod void t1() {
         helloMethod();
 
-        Account acc = new Account(Name= 'srinivas');
+        Account acc = new Account(Name= 'srinivasKavuri');
         insert acc; // hit the trigger
 
         // Check that the trigger properly set the phone field:
@@ -17,6 +17,6 @@ public class SampleDeployClass {
     }
     
     public static void helloMethod() {
-        System.debug('Hello World Vasu');
+        System.debug('Hello World Vasukavuri');
     }
 }
